@@ -1,0 +1,101 @@
+project,grade,website,app,docs,evidence
+Ethereum,A,Yes,N/A,Yes,"Site + docs integrated: ethereum.org/zh/ fetched with 11,128 Chinese characters; a Traditional version sits alongside."
+Solana,A,Yes,N/A,Yes,solana.com/zh verified by opening pages (the crawler was rate-limited); Simplified docs at /zh/docs; a few homepage modules still English.
+BNB Chain,A,Yes,N/A,No,"bnbchain.org/zh-CN fetched with 3,950 Chinese characters; the standalone docs site fetched 0 — docs never followed."
+Bitcoin,A,Yes,N/A,Partial,"bitcoin.org/zh_CN/ is a full-site Simplified edition (case-sensitive path), community-maintained for years; the standalone developer site is English."
+Filecoin,A,Yes,N/A,No,"filecoin.io/zh-cn fetched with 3,345 Chinese characters, nav and body fully Simplified; docs.filecoin.io fetched 0."
+Injective,A,Yes,N/A,No,"injective.com/zh fetched with 1,296 Chinese characters; docs carry only language-menu labels (36 chars) — no Chinese documentation."
+Kaspa,A,Yes,N/A,No evidence found,kaspa.org/zh-CN homepage fully Simplified (788 chars — a small site); the wiki blocked fetching (403) and no Chinese docs were found.
+MetaMask,A,Yes,Yes,Yes,"The most complete entry in the index: site /zh-CN (2,912 chars), app settings include Simplified Chinese, and the support center has a zh-cn edition."
+CoinGecko,A,Yes,Yes,No,"coingecko.com/zh fetched with 2,262 Chinese characters; the help center has no zh-cn edition (404)."
+CoinMarketCap,A,Yes,Yes,No,"coinmarketcap.com/zh/ fetched with 4,741 Chinese characters; the support center's /zh-cn redirects back to English."
+Trust Wallet,A,Yes,Yes,No,trustwallet.com/zh-cn is a full Chinese homepage (hreflang zh-cn + zh-tw); the app includes Chinese; no Chinese help center found.
+OpenSea,A,Yes,Yes,Partial,Simplified support confirmed by an official help article and blog post (the homepage blocks crawlers with 403); only the top help articles are translated so far.
+Polymarket,A,Yes,Yes,No,"polymarket.com/zh fetched with 3,617 Chinese characters (Simplified markers 42 vs Traditional 0); docs are English."
+Alchemy,A,Yes,N/A,No,alchemy.com/zh-hans is a full-page Simplified site — rare for developer infrastructure; the docs are still English.
+Bitget Wallet,A,Yes,Yes,Yes,"Site moved to web3.bitget.com/zh — 39,902 Chinese characters, fully Simplified; app and the site's academy/help sections are in Chinese."
+TokenPocket,A,Yes,Yes,No,"tokenpocket.pro/zh fully Simplified (1,348 chars) and the app is Chinese-native; the help center is English-only — a gap inside an A."
+TON,B,No,N/A,Partial,Simplified docs survive only on the legacy docs site (old-docs.ton.org/mandarin); the new docs' /zh-CN returns 404; the site has none.
+Tron,B,No,N/A,Yes,Core client docs have a full Simplified edition (the documentation-zh repo); the official site and developer portal are English.
+World,B,Partial,No evidence found,No,"Traditional only: hreflang offers zh-tw and /zh-cn redirects to it (7,448 chars, Traditional glyphs); no Simplified version; docs fetched 0."
+Rocket Pool,B,No,No,Yes,Docs-only: docs.rocketpool.net/zh is fully Simplified with complete Chinese navigation; the site fetched 0 Chinese characters.
+Uniswap,B,No,Yes,No,"App-only: official help confirms Simplified in the interface settings — per-string count 5,129 of 5,252 app strings translated; site and docs fetched 0."
+Aave,B,No,Yes,No,"Mobile-only: the new iOS app lists Simplified Chinese, while the web frontend's Crowdin config exports only en/es/fr/el — no zh. The two surfaces disagree."
+Curve,B,No,Partial,No,Traditional only: the dApp added a Traditional Chinese option in Jan 2023; no Simplified found; the site's /zh is an SPA false positive (0 chars).
+PancakeSwap,B,Partial,Yes,Yes,App + docs in Simplified (frontend zh-CN locale; docs /chinese verified by opening) but no standalone Chinese site — B by definition.
+Raydium,B,No,No,Yes,Docs-only: docs.raydium.io/zh verified Simplified (the page notes it is AI machine translation); site and app have none.
+GMX,B,No,Yes,No,App-only: the open-source frontend zh catalog is near-complete (568 KB vs 570 KB for English); site and docs none. Upgraded C to B on review.
+dYdX,B,No,Yes,No,The trading frontend ships a complete zh-CN localization package; the brand site and docs have none.
+Pendle,B,No,No,Yes,Docs-only: the docs run a zh-CN locale (/cn/ routes) and Pendle says Docs/Academy/Dev Docs fully support Chinese; site and app have none.
+Drift,B,Partial,No,No,The homepage's hreflang declares a Chinese subdomain (zh.drift.trade) but it could not be opened this run — completeness unverified; app and docs are English.
+Hyperliquid,B,No,Yes,No,"App-only: the trading app's language menu includes Simplified Chinese (per a third-party menu listing); site fetched 0, docs fetched 0."
+ENS,B,No,Partial,No,"The manager app has a zh locale — common.json near-complete (15,047 B vs 15,982 B English) but settings.json lags (814 B vs 2,744 B); site and support have none."
+Phantom,B,No,Yes,No,App-only: the official blog lists Chinese (Simplified) among 11 app languages; the site and help center have none.
+Rabby,B,No,Yes,No,The extension source ships a complete zh-CN pack (marked Complete); the site and guides are English. A DeBank-family team.
+Etherscan,B,Partial,N/A,No,Chinese is hidden in the logged-in Site Settings (the info center lists Chinese support) — there is no Chinese landing page or URL; docs are English.
+Zerion,B,No,Yes,No,The mobile app lists Simplified Chinese; the help docs state the browser extension is English-only; the site has none.
+Pump.fun,B,No,Yes,No,The official iOS app's language list includes Chinese; the web product is English-only; docs are English.
+Infura,B,Partial,N/A,No,infura.io/zh exists but only the title and a few blocks are Chinese — the body is still English; docs (merged into MetaMask's) are English.
+imToken,B,No,Yes,Yes,App + support center fully Chinese (support has a complete zh-cn edition) but the official site token.im is English-only — the index's most surprising near-miss.
+Arbitrum,C,No,N/A,No,Site /zh 404; docs.arbitrum.io fetched 0 Chinese characters.
+Optimism,C,No,N/A,No,Site /zh 404; docs fetched 0 Chinese characters.
+Base,C,No,N/A,No,Site /zh 404; docs.base.org fetched 0 — Coinbase's own docs have no Chinese.
+Polygon,C,No,N/A,No,Site /zh 404; no Chinese edition found for the docs portal.
+Avalanche,C,No,N/A,No,Site /zh 404; docs.avax.network fetched 0 Chinese characters.
+NEAR,C,No,N/A,No,Site /zh 404; docs.near.org fetched 0 Chinese characters.
+Sui,C,No,N/A,No,Site /zh 404; docs.sui.io fetched 0 Chinese characters.
+Aptos,C,No,N/A,No,Site check was rate-limited (429) and search shows no Chinese version; docs fetched only 12 Chinese characters. Chinese community events exist — a Chinese site doesn't.
+Cosmos,C,No,N/A,No,Site /zh returns 200 with 0 Chinese characters (SPA false positive); docs fetched 0.
+Polkadot,C,No,N/A,No,Site /zh 404; the official wiki fetched 0 — Chinese exists only as third-party community translation. Forum threads debate the English-only ecosystem.
+XRP Ledger,C,No,N/A,No,All zh paths 404; the homepage carries 3 Chinese characters; the site has other languages — just not Chinese.
+Cardano,C,No,N/A,No,Site /zh 404; docs.cardano.org fetched 0 Chinese characters.
+Stellar,C,No,N/A,No,Site /zh 404; developer docs fetched 0 Chinese characters.
+Hedera,C,No,N/A,No,Site /zh 404; docs.hedera.com fetched 0 Chinese characters.
+Algorand,C,No,N/A,No,Site /zh 404; the developer portal blocked direct fetching (403) and search shows no Chinese docs.
+Tezos,C,No,N/A,No,Site /zh 404; docs.tezos.com fetched 0 Chinese characters.
+Arweave,C,No,N/A,No,Site /zh returns 200 with 0 Chinese characters (SPA false positive); docs fetched 0.
+Sei,C,No,N/A,No,Site /zh 404; docs.sei.io fetched 0 Chinese characters.
+Celestia,C,No,N/A,No,Site /zh 404; docs.celestia.org fetched 0 Chinese characters.
+Starknet,C,No,N/A,No,Site /zh 404; docs.starknet.io fetched 0 Chinese characters.
+zkSync,C,No,N/A,No,Site /zh 404; docs.zksync.io fetched 0 Chinese characters.
+Linea,C,No,N/A,No,Site /zh errors with no Chinese content; docs fetched 0. Same parent company as MetaMask — the index's most complete A.
+Scroll,C,No,N/A,No,Site /zh 404; docs /zh is an SPA false positive (0 chars). The team has a large Chinese community; the site and docs are still all-English.
+Mantle,C,No,N/A,No,Site /zh 404; docs.mantle.xyz fetched 0 Chinese characters.
+Chainlink,C,No,N/A,No,Site /zh 404; docs.chain.link fetched 0 Chinese characters.
+Sky,C,No,No,No,Site /zh 404; app.sky.money fetched 0; no Chinese docs found. Still all-English after the Maker rebrand.
+Lido,C,No,No,No,Site /zh 404; the staking app fetched 0; docs fetched 0.
+EigenLayer,C,No,No,No,The site (now eigencloud.xyz) carries 0 Chinese characters; no Chinese app or docs found. Still all-English after the rebrand.
+Ethena,C,No,No,No,Site /zh 404; app and docs both fetched 0 Chinese characters.
+Compound,C,No,No,No,The site carries no Chinese content; app and docs fetched 0 Chinese characters.
+Synthetix,C,No,No,No,Site /zh 404; docs /zh paths are SPA false positives (0 chars); no frontend Chinese found.
+Balancer,C,No evidence found,No,No,"The site blocked every fetch with 429 rate-limiting (graded none, flagged for recheck); docs fetched 0; a 2022 proposal to translate the docs never shipped."
+SushiSwap,C,No,No,No,No Chinese signal on the site; docs fetched 0; the 2022-era UI had a language switch — the current frontend shows no zh evidence.
+Aerodrome,C,No,No,No evidence found,"The site is an SPA false positive (0 chars); the docs fetch failed and search shows no Chinese docs. Base's largest DEX — like Base itself, zero Chinese."
+Frax,C,No,No,No,The site is an SPA (all zh paths 200 with 0 chars); docs fetched just 8 Chinese characters (token names).
+Ondo,C,No,No,No,All zh paths 404; docs fetched 0. A leading RWA project with zero Chinese.
+THORChain,C,No,No,No,Site /zh 404; docs.thorchain.org fetched 0 Chinese characters.
+Kamino,C,No,No,No,The site is an SPA false positive; the app has no Chinese language evidence; docs fetched 0. Solana's top lending protocol.
+Marginfi,C,No,No,No,Site /zh 404; the frontend has no Chinese evidence; docs fetched 0.
+Jupiter,C,No,No,No,Site /zh 404; docs English; the official FAQ states jup.ag is English-only with no language setting and suggests browser translation.
+Morpho,C,No,No,No,Site /zh 404; app and docs have no Chinese evidence.
+Safe,C,No,No,No,Site /zh 404; no Chinese in the wallet or the docs. The institutional multisig standard — zero Chinese.
+Dune,C,No,No,No,Site /zh is an SPA false positive (0 chars); docs.dune.com is English.
+DeBank,C,No,No,No,The site is an SPA false positive; no publicly verifiable Simplified interface found despite a Chinese-background team. Flagged for recheck.
+Rainbow,C,No,No,No,The site is an SPA false positive; the iOS listing shows English only; docs English. (Its dev kit RainbowKit supports zh-CN — the wallet app doesn't.)
+Magic Eden,C,No,No,No,"Site /zh 404; help center English; a co-founder interview says multilingual support incl. Chinese was tried early, removed, and there is no Asia community team."
+Blur,C,No,No,No,The site is an SPA false positive; no Chinese evidence for app or support (the support fetch failed).
+Tensor,C,No,No,No,"The site is an SPA false positive; docs fetched 0. Solana's top NFT platform, all-English."
+Zora,C,No,No,No,Site /zh 404; docs.zora.co fetched 0 Chinese characters.
+Farcaster,C,No,No,No,The site is an SPA false positive; the official client's store listing is English-only; docs English.
+Lens,C,No,No,No,Site /zh 404; no Chinese evidence for app or docs.
+The Graph,C,No,No,No,Site /zh redirects to the English page; docs /zh redirects to /docs/en/ — a redirect is hard evidence of 'not done'.
+Livepeer,C,No,No,No,Site /zh redirects to a page with 0 Chinese characters; docs fetched 0.
+Render,C,No,N/A,No,The main site was unreachable this run (connection failed); the brand site fetched 200 with 0 Chinese characters; docs fetched 0.
+Akash,C,No,No,No,Site /zh 404; docs fetched 0 Chinese characters.
+Bittensor,C,No,No,No,Site /zh 404; docs.bittensor.com fetched 0 Chinese characters.
+Virtuals,C,No,No,No,"The homepage's 155 Chinese characters are syndicated Chinese media headlines, not localization (excluded); /zh 404; docs unreachable, no Chinese edition found."
+Blockscout,C,No,No,No,Site /zh returned 503 with no Chinese version found; the open-source frontend has no zh locale file; docs fetched 0.
+Tenderly,C,No,No,No,The site fetch was rate-limited (429; the error page's Chinese characters excluded) and search shows no Chinese version; docs fetched 0.
+Nansen,C,No,No,No,Site /zh 404; docs.nansen.ai fetched 0 Chinese characters.
+Arkham,C,No evidence found,No,No,Site and docs were unreachable this run (connection failed); search shows no official Chinese version. Flagged for recheck.
+Messari,C,No evidence found,No,No,The site fetch was rate-limited (429; error-page characters excluded) and the pro subdomain was unreachable; search shows no Chinese version; no Chinese docs found.
